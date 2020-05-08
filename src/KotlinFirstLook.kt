@@ -47,6 +47,6 @@ fun main(){
     usingStep()
     usingVararg("test", true, 100, 48f, null)
 
-    var person = Person()
+    val person = Person()
     person.age = 21
 }
