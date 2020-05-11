@@ -47,6 +47,10 @@ fun main(){
     usingStep()
     usingVararg("test", true, 100, 48f, null)
 
+    println(Person.MyStaticExample)
+
+
     val person = Person()
     person.age = 21
+    person.override(1);
 }
